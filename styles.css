@@ -57,7 +57,59 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+  .circle{
+    height: 42px;
+    width: 53px;
+    float: left;
+    border-radius: 1%;
+    text-align: center;
+    /* margin: -5px; */
+    margin-top: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    margin-left: -5px;
+    background: transparent url(inactive_flower.png) 50% no-repeat;
+    background-size: 100%;
+    }
+    .nextRow{
+      margin-left: 8px;
+      clear: both;
+    }
+    .nextRowleft{
+      clear: both;
+    }
+    .clicked{
+       background: transparent url(active_flower.png) 50% no-repeat;
+       background-size: 100%;
+    }
+  .butterfly {
+    margin: 0;
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    background: transparent url(BF.png) 50% no-repeat;
+    background-size: 37px 37px;
+    transform: translate(-49%, -4%);
+    z-index: 999;
+  }
+  .newgame{
+    clear: both;
+    margin-bottom: 10px;
+  }
+  .main{
+        background: transparent url(GAmE_BG.png) no-repeat;
+    max-width: 100%;
+    height: 350px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+  }
+  .submain{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* Portrait phones and smaller */
