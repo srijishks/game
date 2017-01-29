@@ -145,7 +145,7 @@
 					}catch(error)
     						{	//If error? Try again
     							//this.resetOrTryAgain();	
-    							this.successMsg();	
+    							this.resetMsg();	
     							
     						}
 
@@ -181,6 +181,9 @@
 			  successMsg: function(){
 		 		this.setState({initnode: 40, showmsg : "Congratz ;)"});
 		 	},
+		 	resetMsg: function(){
+		 		this.setState({initnode: 40, showmsg : "Automatically reseted"});
+		 	},	
 			  render: function() {
 				  var indents = [];
 				  var nodes, presence;
